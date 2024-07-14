@@ -1,0 +1,124 @@
+body{
+  margin: auto;
+  padding: 0px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+a {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  padding: 0%;
+  margin: 10px auto;
+  align-items: center;
+  text-decoration: none;
+  color:#0d0d0d;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+ 
+}
+
+.botao {
+  width: 100%;
+  height: 100%;
+  background-color:#fff;
+  border: 4px solid ;
+  border-radius: 20px;
+  padding: 100% auto;
+  text-align: center;
+  margin: auto;
+}
+
+label {
+  font-size: 30px;
+}
+input {
+  width: 50%;
+  height: 100%;
+  font-size: 30px;
+  background-color:#fff;
+  border: 4px solid ;
+  border-radius: 20px;
+  padding: 0%;
+  text-align: center;
+}
+
+.contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto 0px;
+  }
+.tipos {
+  padding:25px;
+  }
+button {
+  font-size: 30px;
+  width: 50%;
+  height: 100%;
+  background-color:#fff;
+  border: 4px solid ;
+  border-radius: 20px;
+  padding: 0% ;
+  text-align: center;
+  margin: auto;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  }
+#linhablc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+.balancins {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60%;
+  min-height: 100%;
+  background-color:#fff;
+  border: 4px solid ;
+  border-radius: 20px;
+}
+
+
+
+/* Color Theme Swatches in Hex */
+.JBL-Garden-Series-1-hex { color: #A4BFB3; }
+.JBL-Garies-2-hex { color: #19402A; }
+.JBL-Garden-Series-3-hex { color: #6D8C7B; }
+.JBL-Garden-Series-4-hex { color: #2C593C; }
+.JBL-Garden-Series-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.JBL-Garden-Series-1-rgba { color: rgba(164, 191, 178, 1); }
+.JBL-Garden-Series-2-rgba { color: rgba(24, 63, 41, 1); }
+.JBL-Garden-Series-3-rgba { color: rgba(109, 140, 122, 1); }
+.JBL-Garden-Series-4-rgba { color: rgba(43, 89, 59, 1); }
+.JBL-Garden-Series-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.JBL-Garden-Series-1-hsla { color: hsla(151, 17, 69, 1); }
+.JBL-Garden-Series-2-hsla { color: hsla(146, 43, 17, 1); }
+.JBL-Garden-Series-3-hsla { color: hsla(146, 12, 48, 1); }
+.JBL-Garden-Series-4-hsla { color: hsla(140, 34, 26, 1); }
+.JBL-Garden-Series-5-hsla { color: hsla(0, 0, 5, 1); }
