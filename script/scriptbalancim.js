@@ -22,7 +22,7 @@ function teste(gg, mm){
 
 function calcularBalancim1() {
   balancim1 = document.getElementById("blc1").value;
-  document.getElementById('gcorpoinex').innerHTML = balancim1 + " Guarda Corpo Interno e Externo";
+  document.getElementById('gcorpoinex').innerHTML = balancim1 + " Par de G. Corpo";
 document.getElementById('piso').innerHTML = balancim1 + " Pisos";
 document.getElementById('afastador').innerHTML = balancim1*2 + " Afastador";
 document.getElementById('guincho').innerHTML = balancim1*2 + " Guincho";
@@ -34,7 +34,7 @@ document.getElementById('parafusos').innerHTML = balancim1*12 + " Parafusos";
 
 function calcularBalancim1M() {
   balancim1m = document.getElementById("blc1m").value;
-  document.getElementById('gcorpoinex1m').innerHTML = balancim1m + " Guarda Corpo Interno e Externo";
+  document.getElementById('gcorpoinex1m').innerHTML = balancim1m + " Par de G. Corpo";
 document.getElementById('piso1m').innerHTML = balancim1m + " Pisos";
 document.getElementById('afastador1m').innerHTML = balancim1m*2 + " Afastador";
 document.getElementById('guincho1m').innerHTML = balancim1m*2 + " Guincho";
@@ -46,7 +46,7 @@ document.getElementById('parafusos1m').innerHTML = balancim1m*12 + " Parafusos";
 
 function calcularBalancim2M() {
   balancim2 = document.getElementById("blc2m").value;
-  document.getElementById('gcorpoinex2M').innerHTML = balancim2 + " Guarda Corpo Interno e Externo";
+  document.getElementById('gcorpoinex2M').innerHTML = balancim2 + " Par de G. Corpo";
 document.getElementById('piso2M').innerHTML = balancim2 + " Pisos";
 document.getElementById('afastador2M').innerHTML = balancim2*2 + " Afastador";
 document.getElementById('guincho2M').innerHTML = balancim2*2 + " Guincho";
@@ -58,7 +58,7 @@ document.getElementById('parafusos2M').innerHTML = balancim2*12 + " Parafusos";
 
 function calcularBalancim3() {
   balancim3 = document.getElementById("blc3").value;
-  document.getElementById('gcorpoinex3').innerHTML = `${balancim3} Guarda Corpo de 3M Interno e Externo`;
+  document.getElementById('gcorpoinex3').innerHTML = `${balancim3} Par de G. Corpo`;
 document.getElementById('piso3').innerHTML = `${balancim3} Pisos`;
 document.getElementById('afastador3').innerHTML = balancim3*2 + " Afastador";
 document.getElementById('guincho3').innerHTML = balancim3*2 + " Guincho";
@@ -70,7 +70,7 @@ document.getElementById('parafusos3').innerHTML = balancim3*12 + " Parafusos";
 
 function calcularBalancim4() {
   balancim4 = document.getElementById("blc4").value;
-  document.getElementById('gcorpoinex4').innerHTML = `${balancim4*2} Guarda Corpo de 2M Interno e Externo`;
+  document.getElementById('gcorpoinex4').innerHTML = `${balancim4*2} Pares de G. Corpo`;
 document.getElementById('piso4').innerHTML = `${balancim4*2} Pisos`;
 document.getElementById('afastador4').innerHTML = balancim4*2 + " Afastador";
 document.getElementById('guincho4').innerHTML = balancim4*2 + " Guincho";
@@ -83,7 +83,7 @@ document.getElementById('parafusos4').innerHTML = balancim4*20 + " Parafusos";
 
 function calcularBalancim5() {
   balancim5 = document.getElementById("blc5").value;
-  document.getElementById('gcorpoinex5').innerHTML = `${balancim5} Guarda-Corpo de 2M e ${balancim5} de 3M Interno e Externo`;
+  document.getElementById('gcorpoinex5').innerHTML = `${balancim5} Par de G. Corpo de 2M e ${balancim5} de 3M`;
 document.getElementById('piso5').innerHTML = `${balancim5} Piso de 2M e ${balancim5} Pisos de 3M`;
 document.getElementById('afastador5').innerHTML = balancim5*2 + " Afastador";
 document.getElementById('guincho5').innerHTML = balancim5*2 + " Guincho";
@@ -96,7 +96,7 @@ document.getElementById('parafusos5').innerHTML = balancim5*20 + " Parafusos";
 
 function calcularBalancim6() {
   balancim6 = document.getElementById("blc6").value;
-  document.getElementById('gcorpoinex6').innerHTML = `${balancim6*2} Guarda Corpo de 3M Interno e Externo`;
+  document.getElementById('gcorpoinex6').innerHTML = `${balancim6*2} Pares de G. Corpo`;
 document.getElementById('piso6').innerHTML = `${balancim6*2} Pisos de 3M`;
 document.getElementById('afastador6').innerHTML = balancim6*2 + " Afastador";
 document.getElementById('guincho6').innerHTML = balancim6*2 + " Guincho";

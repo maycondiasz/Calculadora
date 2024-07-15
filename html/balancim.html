@@ -13,24 +13,27 @@
 <a href="../index.html"><button>Início</button></a>
      <h1> Informe o tamanho e a quantidade de balancim
      </h1>
-<div id="container">
+<!--<div id="container">-->
 <div class="contain">
+   
    <button id="m1" class="tipos" onclick="teste(`div1m`, `m1`)">1 metro</button>
    <button id="m15" class="tipos" onclick="teste(`div15m`, `m15`)">1,5 metros</button>
    <button id="m2" class="tipos" onclick="teste(`div2m`, `m2`)">2 metros</button>
-   <button id="m3" class="tipos" onclick="teste(`div3m`, `m3`)">3 metros</button>
+
 </div>
 <div class="contain">
+   <button id="m3" class="tipos" onclick="teste(`div3m`, `m3`)">3 metros</button>
    <button id="m4" class="tipos" onclick="teste(`div4m`, `m4`)">4 metros</button>
    <button id="m5" class="tipos" onclick="teste(`div5m`, `m5`)">5 metros</button>
    <button id="m6" class="tipos" onclick="teste(`div6m`, `m6`)">6 metros</button>
 </div>
-</div>
+<!--</div>-->
 <div id="linhablc">
     <div class="balancins" id="div1m">
        <h2>balancim 1M</h2>
+       <div class="top">
       <input name="blc1" id="blc1" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim1()">OK</button>
+      <button onclick="calcularBalancim1()">OK</button></div>
       <div>
          <p id="gcorpoinex"></p>
          <p id="piso"></p>
@@ -44,8 +47,9 @@
     </div>
     <div class="balancins" id="div15m">
        <h2>balancim 1,5M</h2>
+       <div class="top">
       <input name="blc1m" id="blc1m" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim1M()">OK</button>
+      <button onclick="calcularBalancim1M()">OK</button></div>
       <div>
          <p id="gcorpoinex1m"></p>
          <p id="piso1m"></p>
@@ -61,8 +65,9 @@
     </div>
     <div class="balancins" id="div2m">
        <h2>balancim 2M</h2>
+       <div class="top">
       <input name="blc2" id="blc2m" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim2M()">OK</button>
+      <button onclick="calcularBalancim2M()">OK</button></div>
       <div>
          <p id="gcorpoinex2M"></p>
          <p id="piso2M"></p>
@@ -76,8 +81,9 @@
     </div>
    <div class="balancins" id="div3m">
        <h2>balancim 3M</h2>
+      <div class="top">
       <input name="blc3" id="blc3" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim3()">OK</button>
+      <button onclick="calcularBalancim3()">OK</button></div>
       <div>
          <p id="gcorpoinex3"></p>
          <p id="piso3"></p>
@@ -91,8 +97,9 @@
     </div>
      <div class="balancins" id="div4m">
        <h2>balancim 4M</h2>
+        <div class="top">
       <input name="blc4" id="blc4" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim4()">OK</button>
+      <button onclick="calcularBalancim4()">OK</button></div>
       <div>
          <p id="gcorpoinex4"></p>
          <p id="piso4"></p>
@@ -107,8 +114,10 @@
      </div>
      <div class="balancins" id="div5m">
        <h2>balancim 5M</h2>
+        <div class="top">
       <input name="blc5" id="blc5" type="number" placeholder="Quantidade"/>
       <button onclick="calcularBalancim5()">OK</button>
+        </div>
       <div>
          <p id="gcorpoinex5"></p>
          <p id="piso5"></p>
@@ -123,8 +132,9 @@
      </div>
      <div class="balancins" id="div6m">
        <h2>balancim 6M</h2>
+        <div class="top">
       <input name="blc6" id="blc6" type="number" placeholder="Quantidade"/>
-      <button onclick="calcularBalancim6()">OK</button>
+      <button onclick="calcularBalancim6()">OK</button></div>
       <div>
          <p id="gcorpoinex6"></p>
          <p id="piso6"></p>
