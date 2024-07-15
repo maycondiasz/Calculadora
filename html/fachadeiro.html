@@ -13,10 +13,14 @@
   <div class="body">
     <a href="../index.html"><button>Início</button></a>
    <h1>Calculadora de Fachadeiro</h1>
-   <label for="metragem">Metros na horizontal:</label>
-   <input type="number" id="metragem">
-   <button onclick="calcularFachadeiro()">Calcular</button>
+   <label for="metragem">Informe as medidas:</label>
+   <input type="number" id="largura" placeholder="Largura">
+   <input type="number" id="altura" placeholder="Altura">
+   <button onclick="calcularFachadeiro(`largura`, `altura`)">Calcular</button>
    <div>
+     <div>
+        <p id="lances"></p>
+     </div>
       <div>
         <p id="quantfachadeiro"></p>
       </div>
