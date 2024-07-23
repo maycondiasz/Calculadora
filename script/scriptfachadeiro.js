@@ -19,7 +19,7 @@ function calcularFachadeiro(largura, altura) {
   }
   lances = inputaltura / 2;
   fachadeiro = ((inputlargura/2)+1) * lances;
-  pisos = ((inputlargura/2)*3) * lances;
+  pisos = ((inputlargura/2)*3);
   dx = (inputlargura/2) * lances;
   bl = inputlargura * lances;
   eve = (lances * 2);
@@ -27,7 +27,7 @@ function calcularFachadeiro(largura, altura) {
 
   
   
-document.getElementById('lances').innerHTML = `<b>Estrutura com ${lances} lances</b>`;
+document.getElementById('lances').innerHTML = `<b>${lances} lances</b>`;
   document.getElementById('quantfachadeiro').innerHTML = `${fachadeiro} fachadeiros</br> (${eve} EVE e ${evs} EVS)`;
   document.getElementById('quantpisos').innerHTML = pisos + " pisos";
 
