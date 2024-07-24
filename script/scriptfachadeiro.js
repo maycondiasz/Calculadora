@@ -29,7 +29,7 @@ function calcularFachadeiro(largura, altura) {
   
 document.getElementById('lances').innerHTML = `<b>${lances} lances</b>`;
   document.getElementById('quantfachadeiro').innerHTML = `${fachadeiro} fachadeiros</br> (${eve} EVE e ${evs} EVS)`;
-  document.getElementById('quantpisos').innerHTML = pisos + " pisos";
+  document.getElementById('quantpisos').innerHTML = pisos + " pisos </br>(quantia para 1 lance)";
 
   document.getElementById('quantbldx').innerHTML = dx + " DX e, " + bl + " BL";
   
