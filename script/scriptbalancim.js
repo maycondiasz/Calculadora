@@ -128,8 +128,8 @@ entInput.addEventListener("input", () => {
       document.getElementById(parafusos).innerHTML = `${quantia[posicao]*20} Parafusos`;
       document.getElementById(uniao).innerHTML = `${quantia[posicao]} União`;
    } else if (posicao == 5) {
-      document.getElementById(gcorpo).innerHTML = `${quantia[posicao]} Par de G. Corpo de 2m e ${quantia[posicao]} de 3m`;
-      document.getElementById(piso).innerHTML = `${quantia[posicao]} Piso de 2m e ${quantia[posicao]} de 3m`;
+      document.getElementById(gcorpo).innerHTML = `${quantia[posicao]} Par de G. Corpo de 2m <br/> ${quantia[posicao]} Par de 3m`;
+      document.getElementById(piso).innerHTML = `${quantia[posicao]} Piso de 2m <br/> ${quantia[posicao]} de 3m`;
       document.getElementById(parafusos).innerHTML = `${quantia[posicao]*20} Parafusos`;
       document.getElementById(uniao).innerHTML = `${quantia[posicao]} União`;
    } else if (posicao == 0){
